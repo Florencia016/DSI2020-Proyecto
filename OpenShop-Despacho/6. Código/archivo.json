@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        
+        "productos":
+        [
+            { 
+                "id": 1,
+                "nombre": "Televisor", 
+                "marca": "samsung",
+                "descripcion": "Televisor LED 4K curvo de 65",
+                "precio":2000,
+                "cantidad":2
+            },
+
+            {
+                "id": 2,
+                "nombre": "Computadora", 
+                "marca": "noblex",
+                "descripcion": "NoteBook i7, 8g RAM, 1tb",
+                "precio":1000,
+                "cantidad":1
+            }
+        ],
+
+        "cliente":
+        {
+            "id":1,
+            "nombre":"Juan",
+            "apellido":"Perez",
+            "dni":"12345678",
+            "domicilio": "25 de Mayo 1892",
+            "localidad": "San Francisco", 
+            "provincia": "Córdoba"
+        },
+        
+        "totalAPagar":5000,
+        
+        "confirmacionPago": true
+    }
+]
